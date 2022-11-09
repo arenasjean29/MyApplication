@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivityGuardar">
+
+    <EditText
+        android:id="@+id/editProyecto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        android:hint="nombre Proyecto"
+        android:textSize="20dp"/>
+    />
+
+    <EditText
+        android:id="@+id/editFigura"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="tipo de figura"
+        android:textAlignment="center"
+        android:textSize="20dp"/>
+
+    />
+
+    <TextView
+        android:id="@+id/textViewB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="base"
+        android:textSize="25dp"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:id="@+id/textViewA"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="altura"
+        android:textSize="25dp"
+        android:textAlignment="center"/>
+
+    <Button
+        android:id="@+id/guard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="guardarD"
+        android:text="guardar" />
+
+    <Button
+        android:id="@+id/guard2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="consultarD"
+        android:text="consultar" />
+    />
+
+
+</LinearLayout>
